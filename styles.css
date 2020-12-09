@@ -1,0 +1,18 @@
+body {
+  background: #222;
+  color: #fff;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  touch-action: none;
+  width: 90vmin;
+  height: 90vmin;
+  border: 1px solid #fff;
+}
+svg circle {
+  cursor: pointer;
+}
